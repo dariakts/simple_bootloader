@@ -3,7 +3,12 @@ A simple bootloader that works with an LFS linux.
 
 ## Overwiev
 
-This is a simple bootloader for x86 architecture using only one stage and hardcoded on hard disk. It comes with a script and a Makefile to provide a simplified installation proces but you can also install it manually by editing .asm file, compiling and copying binary file on your hard disk.
+This is a simple bootloader for x86 architecture using only one stage and hardcoded on hard disk. It comes with a script and a Makefile to provide a simplified installation proces but you can also install it manually by editing .asm file, compiling and copying binary file on your hard disk. 
+
+Dont forget to back up your MBR before using it!
+
+This bootloader was originally written by Sebastian Plotz (Minimal Linux Bootloader) -> http://sebastian-plotz.blogspot.de/.
+I've changed its code a bit and added an installation script and a Makefile.
 
 ### Characteristics
 
